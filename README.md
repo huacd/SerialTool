@@ -110,11 +110,11 @@ SerialTool 的波形显示模块使用简单的协议进行数据传输，我们
      ```
    * 假设 Linux 下路径为 "~/QScintilla_gpl-2.10.8/Qt4Qt5" 则执行操作
      ``` bash
-        依赖的库QScintilla需要单独编译安装
-        cd QScintilla/QScintilla_src-2.13.1/src
-        /home/hcd/opt/Qt5.12.11/5.12.11/gcc_64/bin/qmake
-        make -j8
-        make install
+    依赖的库QScintilla需要单独编译安装
+    cd QScintilla/QScintilla_src-2.13.1/src
+    /home/hcd/opt/Qt5.12.11/5.12.11/gcc_64/bin/qmake
+    make -j8
+    make install
      ```
 
 ### 编译 SerialTool
